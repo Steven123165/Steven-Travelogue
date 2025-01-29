@@ -1,0 +1,11 @@
+body{
+    background-color: cornflowerblue;
+}
+h1{
+   text-align: center;
+   color: rgb(15, 50, 71);
+   text-decoration-line: underline;
+}
+p{
+    text-align: center;
+}
