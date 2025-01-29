@@ -1,11 +1,98 @@
-body{
-    background-color: cornflowerblue;
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
-h1{
-   text-align: center;
-   color: rgb(15, 50, 71);
-   text-decoration-line: underline;
-}
-p{
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #0077b6, #00a8cc);
+    color: white;
     text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* Location Sections */
+section {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+section img {
+    width: 320px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+section .text {
+    flex: 1;
+}
+
+section h2 {
+    color: #0077b6;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Custom Styling for Each Section */
+#xinghai {
+    background-color: #e3f2fd;
+}
+
+#tiger-beach {
+    background-color: #e1f5fe;
+}
+
+#laohutan {
+    background-color: #ede7f6;
+}
+
+/* Footer */
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+    margin-top: 40px;
 }
